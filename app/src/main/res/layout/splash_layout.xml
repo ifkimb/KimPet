@@ -5,23 +5,23 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_vertical"
     android:background="#DDCCED"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
     tools:context=".SplashActivity">
-    
+
     <ImageView
+        android:id="@+id/imgLogo"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/logo_kimpet"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/logo_kimpet" />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:indeterminate="true"/>
+        android:indeterminate="true" />
 
 </LinearLayout>
