@@ -21,6 +21,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtLoginEmail"
         android:layout_width="match_parent"
+        android:textColor="#3D2F5F"
         android:layout_height="wrap_content"
         android:hint="@string/email">
 
@@ -28,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
+            android:textColor="#3D2F5F"
             android:layout_marginRight="30dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -36,7 +38,8 @@
         android:id="@+id/txtLoginSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Senha"
+        android:hint="@string/senha"
+        android:textColor="#3D2F5F"
         app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -44,9 +47,28 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
+            android:textColor="#3D2F5F"
             android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/n_o_possui_cadastro_crie_sua_conta"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/entrar"
+        android:textSize="18sp" />
 
 
 </LinearLayout>
