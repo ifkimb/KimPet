@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">KimPet</string>
     <string name="email">Email</string>
     <string name="n_o_possui_cadastro_crie_sua_conta">Não possui cadastro? Crie sua conta!</string>
     <string name="entrar">Entrar</string>
