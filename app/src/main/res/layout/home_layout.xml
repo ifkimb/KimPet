@@ -18,14 +18,36 @@
     </include>
 
     <include
-        layout="@layout/card_alimento"
+        layout="@layout/card_adocao"
         android:layout_alignParentRight="true"
-        android:id="@+id/cardAlimento"
+        android:id="@+id/cardAdocao"
         android:layout_width="180dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_height="200dp">
     </include>
+
+    <include
+        layout="@layout/card_alimento"
+        android:layout_below="@id/cardAcessorios"
+        android:id="@+id/cardAlimento"
+        android:layout_width="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="200dp">
+    </include>
+
+    <include
+        layout="@layout/card_consulta"
+        android:layout_below="@+id/cardAdocao"
+        android:id="@+id/cardConsultas"
+        android:layout_width="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="200dp">
+    </include>
+
+
 
 
 
