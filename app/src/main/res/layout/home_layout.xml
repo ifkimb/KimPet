@@ -5,53 +5,70 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity"
-    android:background="#DDCDED">
+    android:background="#DDCDED"
+    tools:context=".HomeActivity">
 
     <include
-        layout="@layout/card_acessorios"
         android:id="@+id/cardAcessorios"
+        layout="@layout/card_acessorios"
         android:layout_width="180dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp">
     </include>
 
     <include
-        layout="@layout/card_adocao"
-        android:layout_alignParentRight="true"
         android:id="@+id/cardAdocao"
+        layout="@layout/card_adocao"
         android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_height="200dp">
+        android:layout_marginRight="22dp">
     </include>
 
     <include
-        layout="@layout/card_alimento"
-        android:layout_below="@id/cardAcessorios"
         android:id="@+id/cardAlimento"
+        layout="@layout/card_alimento"
         android:layout_width="180dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:layout_below="@id/cardAcessorios"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp">
     </include>
 
     <include
-        layout="@layout/card_consulta"
-        android:layout_below="@+id/cardAdocao"
         android:id="@+id/cardConsultas"
+        layout="@layout/card_consulta"
         android:layout_width="180dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:layout_below="@+id/cardAdocao"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="20dp">
     </include>
 
+    <include
+        android:id="@+id/cardHigiene"
+        layout="@layout/card_higiene"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/cardAlimento"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp">
+    </include>
 
+    <include>
+        <include
+            android:id="@+id/cardRemedio"
+            layout="@layout/card_remedio"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cardConsultas"
 
-
-
-
-
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="20dp">
+        </include>
+    </include>
 
 </RelativeLayout>
