@@ -8,6 +8,10 @@
     android:background="#DDCDED"
     tools:context=".HomeActivity">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
     <include
         android:id="@+id/cardAcessorios"
         layout="@layout/card_acessorios"
@@ -58,17 +62,18 @@
         android:layout_marginTop="20dp">
     </include>
 
-    <include>
-        <include
-            android:id="@+id/cardRemedio"
-            layout="@layout/card_remedio"
-            android:layout_width="180dp"
-            android:layout_height="200dp"
-            android:layout_below="@+id/cardConsultas"
-
-            android:layout_marginTop="22dp"
-            android:layout_marginRight="20dp">
-        </include>
+    <include
+        android:id="@+id/cardRemedio"
+        layout="@layout/card_remedio"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/cardConsultas"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="20dp">
     </include>
+
+    </RelativeLayout>
+
 
 </RelativeLayout>
