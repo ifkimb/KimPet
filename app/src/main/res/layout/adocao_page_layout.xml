@@ -23,56 +23,56 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-<ScrollView
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="20dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <LinearLayout
-
+    <ScrollView
+        android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="55dp"
-        android:orientation="vertical">
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-        <include
-            layout="@layout/card_fred"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp">
-        </include>
+        <LinearLayout
 
-        <include
-            layout="@layout/card_pandora"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_marginTop="15dp">
-        </include>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="55dp"
+            android:orientation="vertical">
 
-        <include
-            layout="@layout/card_stella"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_marginTop="15sp">
-        </include>
+            <include
+                layout="@layout/card_fred"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+            </include>
 
-        <include
-            layout="@layout/card_martin"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_marginTop="15dp">
-        </include>
+            <include
+                layout="@layout/card_pandora"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp">
+            </include>
 
-        <include
-            layout="@layout/card_alex"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_marginTop="15dp">
-        </include>
+            <include
+                layout="@layout/card_stella"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="15sp">
+            </include>
 
-    </LinearLayout>
+            <include
+                layout="@layout/card_martin"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp">
+            </include>
 
-</ScrollView>
+            <include
+                layout="@layout/card_alex"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp">
+            </include>
+
+        </LinearLayout>
+
+    </ScrollView>
 </LinearLayout>
